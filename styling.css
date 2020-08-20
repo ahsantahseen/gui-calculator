@@ -1,11 +1,40 @@
 body {
   text-align: center;
 }
+.result_box {
+  text-align: right;
+  background-color: beige;
+  height: 70px;
+  border: none;
+  outline: none;
+  padding: 10px;
+  font-size: 18px;
+}
 .calculator_body {
+  position: relative;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  margin: 0;
+  padding: 0;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 .button_box {
-  margin-top: 50px;
+  text-align: center;
+  width: 300px;
+  height: auto;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(60px, 1fr));
+  grid-gap: 10px;
+  padding: 10px;
+  box-sizing: border-box;
+}
+.button {
+  height: 30px;
+  width: 50px;
 }
