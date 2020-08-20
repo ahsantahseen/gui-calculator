@@ -16,14 +16,8 @@ body {
   justify-content: center;
   align-items: center;
 }
-.container {
-  margin: 0;
-  padding: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
 .button_box {
+  background: #0c2835;
   text-align: center;
   width: 300px;
   height: auto;
@@ -35,6 +29,11 @@ body {
   box-sizing: border-box;
 }
 .button {
-  height: 30px;
-  width: 50px;
+  display: grid;
+  color: white;
+  background: #0c2835;
+  place-items: center;
+  height: 60px;
+  width: 60px;
+  border: 1px solid white;
 }
