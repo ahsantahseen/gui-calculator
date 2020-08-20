@@ -6,6 +6,13 @@ h1 {
   font-family: "Digital-7 Mono";
   font-size: 50px;
 }
+
+.calculator_body {
+  position: relative;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
 .result_box {
   text-align: right;
   background-color: rgb(5, 5, 5);
@@ -17,12 +24,6 @@ h1 {
   font-size: 49px;
   font-family: "Digital-7 mono", arial;
   color: white;
-}
-.calculator_body {
-  position: relative;
-  display: grid;
-  justify-content: center;
-  align-items: center;
 }
 .button_box {
   background: #0c2835;
