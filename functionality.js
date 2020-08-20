@@ -1,6 +1,3 @@
-var number;
-var sign;
-
 function getNum(number) {
   val_place = document.getElementById("result_box").value += number;
 }
@@ -14,4 +11,3 @@ function calc() {
 function reset() {
   document.getElementById("result_box").value = "";
 }
-    
