@@ -1,14 +1,18 @@
+@import url(https://allfont.net/allfont.css?fonts=digital-7);
 body {
   text-align: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 .result_box {
   text-align: right;
-  background-color: beige;
+  background-color: rgb(5, 5, 5);
   height: 70px;
   border: none;
   outline: none;
   padding: 10px;
-  font-size: 18px;
+  font-size: 19px;
+  font-family: "Digital-7", arial;
+  color: white;
 }
 .calculator_body {
   position: relative;
